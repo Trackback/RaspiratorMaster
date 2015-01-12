@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="button_close_connection" mnemonicParsing="false" text="Выход" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Text blendMode="DARKEN" fontSmoothingType="LCD" layoutX="20.0" layoutY="529.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите команду, Мастер:" textOrigin="TOP" AnchorPane.topAnchor="529.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Droid Sans Mono" size="13.0" />
+         </font>
+         <effect>
+            <BoxBlur height="0.0" width="1.96" />
+         </effect>
+      </Text>
+      <Button fx:id="button_send_command" defaultButton="true" layoutX="300.0" layoutY="525.0" mnemonicParsing="false" text="Командовать" textFill="#513a03" textOverrun="LEADING_WORD_ELLIPSIS" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="525.0" />
+      <TextField fx:id="input_command" layoutX="20.0" layoutY="590.0" prefHeight="25.0" prefWidth="386.0" promptText="Команда" AnchorPane.topAnchor="570.0">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+      <ListView fx:id="history" layoutX="60.0" layoutY="69.0" maxHeight="1.7976931348623157E308" prefHeight="453.0" prefWidth="324.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>

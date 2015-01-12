@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="button_connect" layoutX="194.0" layoutY="116.0" mnemonicParsing="false" text="Подключиться" />
+      <TextField fx:id="input_address" layoutX="14.0" layoutY="67.0" prefHeight="25.0" prefWidth="277.0">
+         <effect>
+            <Reflection bottomOpacity="0.19" />
+         </effect>
+      </TextField>
+      <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Set the address and port of  raspirator[address:port]" />
+      <Text fx:id="textview_output" layoutX="14.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</Pane>
