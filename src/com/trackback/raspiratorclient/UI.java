@@ -35,10 +35,17 @@ public class UI {
 	
 	
 	public void showConnectionFrom(String message, boolean reconnect){
+<<<<<<< HEAD
 		final Stage cForm = Client.gui.createWindow("connection_form.fxml");
 		final TextField inputAddress = Client.gui.getTextFieldFromScene(cForm, "input_address");
 		final Button buttonConnect = Client.gui.getButtonFromScene(cForm, "button_connect"); 
 		final Text textviewOutput = Client.gui.getTextFromScene(cForm, "textview_output");
+=======
+		Stage cForm = Client.gui.createWindow("connection_form.fxml");
+		TextField inputAddress = Client.gui.getTextFieldFromScene(cForm, "input_address");
+		Button buttonConnect = Client.gui.getButtonFromScene(cForm, "button_connect"); 
+		Text textviewOutput = Client.gui.getTextFromScene(cForm, "textview_output");
+>>>>>>> 3fcdfd50519f2ecf52e0daac9d4113feedba05ce
 		
 		textviewOutput.setText(message);
 		if(reconnect){
