@@ -14,3 +14,7 @@ After successful connection you can send a command. One of this:
 - help. Shows all commands and basic help
 - exec. Execut system commands (see raspirator description)
 - ver. Shows current version of raspirator
+- top. Show processes list
+- kill. Destroy process
+- killall. Destroy all processes
+- pin. Bind pin
